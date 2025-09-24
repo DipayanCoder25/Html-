@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> HTML Form </title>
+</head>
+<body>
+	<label>Enter your name</label><br>
+	<input type="name" > <br>
+		<label>Enter your Email</label><br>
+	<input type="email" required placeholder="xyz@gmail.com" > <br>
+		<label>Enter your Mobile number</label><br>
+	<input type="number" required placeholder="+880xxxxxx" > <br>
+		<label>Enter your Birth Of Date</label><br>
+	<input type="date" > <br>
+		<label>Upload Files </label>
+	<input type="file" > <br>
+		<label>Upload images</label>
+	<input type="file" accept="*/image" > <br>
+	<br>
+	<label> Gender</label>
+	<input type="radio" name="Gender" value="male">Male
+	<input type="radio" name="Gender" value="female">Female
+	<input type="radio" name="Gender" value="other">Others
+
+	<br>
+	<label> Hobbies</label>
+	<input type="checkbox" name="reading" value="reading">Reading<br>
+	<input type="checkbox" name="shoping" value="shoping">Shoping<br>
+	<input type="checkbox" name="gaming" value="playing_games">Gaming<br>
+	<label>Country</label>
+	<select name="country" required>
+	<br>
+	<option value="">Select Country</option>
+	<option value="Bangladesh">Bangladesh</option>
+	<option value="India">India</option>
+	<option value="Pakistan">Pakistan</option>
+	<option value="Nepal">Nepal</option>
+
+	<label>Age</label>
+	<input type="number" name="Age" min="10" max="20" required>
+	<br>
+	<label>About me</label>
+	<textarea rows="3" placeholder="tell us about yourself "></textarea>
+	<input type="submit" name="Submit" value="Register">
+</body>
+</html>
